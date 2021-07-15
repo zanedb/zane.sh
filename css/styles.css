@@ -1,0 +1,44 @@
+@font-face {
+  font-family: 'GT America';
+  font-weight: 900;
+  font-style: italic;
+  src: url('/fonts/gt-america-blackitalic.woff') format('woff');
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  background-color: #db6c79;
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+h1 {
+  color: white;
+  margin: 0;
+  font-family: 'GT America', ui-rounded, system-ui, 'Segoe UI', Roboto,
+    'Helvetica Neue', sans-serif;
+  font-size: 2.75rem;
+  font-weight: bolder;
+  font-style: italic;
+  font-weight: 900;
+  line-height: 1;
+}
+
+@media (min-width: 48rem) {
+  h1 {
+    font-size: 4rem;
+  }
+}
